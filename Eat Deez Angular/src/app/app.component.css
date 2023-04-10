@@ -1,0 +1,80 @@
+.navi{
+    margin-top:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    background-color:rgb(241, 250, 111) ;
+    border-color: blueviolet;
+    border-style: ridge;
+    padding-bottom: 12px;
+}
+
+.navi h2{
+   
+    text-align: center;
+    font-family:sans-serif;
+    font-weight: bolder;
+    color: rgb(44, 42, 165);
+    padding:10px;
+    border-style: ridge;
+    border-radius: 100%;
+    border-width:2px;
+    margin:10px;
+    background-color: rgb(115, 213, 243);
+
+
+}
+
+a{
+    background-color:bisque;
+    border-radius: 10px;
+    border-style:ridge;
+    border-color: blueviolet;
+    margin:5px;
+    padding: 3px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: red;
+    color:white;
+}
+.bimg{
+    
+        background-color: coral;
+        height: 600px;
+        margin: 10px 10% 0 40%;
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:auto;
+        color:white;
+
+}
+.bimg h1{
+    border-style:outset;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-width: 12px;
+    padding-left: 50px;
+    margin-right:500px;
+    margin-top: 80px;
+    line-height: 500px;
+    border-color: blueviolet;
+    color: rgb(97, 252, 66);
+    font-size: 35px;
+    background-color: cornflowerblue;
+    animation-name: colorchange;
+    animation-duration: 7s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+
+    
+}
+@keyframes colorchange {
+    0% {background-color: rgba(240, 49, 49, 0.904); }
+    20% {background-color: rgb(250, 222, 100); }
+    40% {background-color: rgb(155, 255, 108); }
+    60% {background-color: rgb(104, 243, 213); }
+    80% {background-color: rgb(74, 169, 233); }
+    100% {background-color: rgb(152, 73, 197); }
+
+}

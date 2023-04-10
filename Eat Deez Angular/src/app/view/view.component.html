@@ -1,0 +1,27 @@
+<div class ="container" align="center">
+    <h2> <u>View Food List: </u></h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th> FID </th>
+                <th> Name </th>
+                <th> Type</th>
+                <th> Origin </th>
+                <th> Serving </th>
+                <th> Price </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let food of foo">
+                <td> {{food.fid}} </td>
+                <td> {{food.name}} </td>
+                <td> {{food.type}} </td>
+                <td> {{food.origin}} </td>
+                <td>{{food.serving}}</td>
+                <td>{{food.price}}</td>             
+            </tr>
+                
+        </tbody>      
+    </table>
+ </div>

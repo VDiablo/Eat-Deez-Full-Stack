@@ -1,0 +1,25 @@
+.container{
+    color: rgb(0, 17, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    justify-content: center;
+    height: 100%;
+    margin: 30px 30% 30px 30%;
+    padding: 3% 0 8% 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: brown;
+    border-style:groove ;
+    border-radius: 2% ;
+}
+
+.container h2{
+    color:rgb(0, 38, 255);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.list{
+    background-color: rgb(168, 226, 236);
+    opacity: 85%;
+}
+

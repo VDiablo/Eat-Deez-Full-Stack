@@ -1,0 +1,44 @@
+header
+{
+    background-color: rgba(238, 137, 22, 0.603);
+    padding: 5px ;
+    border: 5px double #db1010;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family:Verdana,Tahoma, sans-serif;
+    font-style: italic;
+    animation-name: colorchange;
+    animation-duration: 7s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+}
+@keyframes colorchange {
+    0% {background-color: rgba(240, 49, 49, 0.904); }
+    20% {background-color: rgb(250, 222, 100); }
+    40% {background-color: rgb(155, 255, 108); }
+    60% {background-color: rgb(104, 243, 213); }
+    80% {background-color: rgb(74, 169, 233); }
+    100% {background-color: rgb(152, 73, 197); }
+
+}
+#a
+{
+    color:#fc0335 ;
+}
+#a:hover{
+    background-color:#fc0303 ;
+    color:white;
+}
+.container
+{
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+ 
+}
+#a.logo
+{
+font-weight: bold;
+padding: 1em;
+border-style:solid;
+}

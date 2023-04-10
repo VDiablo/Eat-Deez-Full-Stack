@@ -1,0 +1,47 @@
+<div class ="container" align="center">
+    <h2> <u>Update Food Item: </u> </h2>
+    <br><br>
+    <div class="form1">
+  <form #updateform="ngForm" (ngSubmit)="updatedata(updateform)">
+    <div class="form-group">
+    <label>  FID : </label>
+    <input type="number" #fid (ngModel)="fid" name="fid" id="fid" class="form-class">
+    </div> <br>
+
+
+    <div class="form-group">
+    <label>  Name : </label>
+    <input type="text" #name (ngModel)="name" name="name" id="name" class="form-class">
+    </div><br>
+
+    <div class="form-group">
+      <label>  Type : </label>
+      <input type="text" #type (ngModel)="type" name="type" id="type" class="form-class">
+      </div><br>
+
+
+
+      <div class="form-group">
+        <label>  Origin: </label>
+        <input type="text" #origin (ngModel)="origin" name="origin" id="origin" class="form-class">
+    </div><br>
+
+
+    <div class="form-group">
+      <label>  Serving : </label>
+      <input type="number" #serving (ngModel)="serving" name="serving" id="serving" class="form-class">
+      </div> <br>
+    
+    
+    <div class="form-group">
+      <label>  Price : </label>
+      <input type="number" #price (ngModel)="price" name="price" id="price" class="form-class">
+  </div><br><br>
+
+
+    <div class="form-group">
+    <input type="submit" value="Update" class="btn btn-primary w-100">
+    </div>
+  </form>
+</div>
+</div>

@@ -1,0 +1,42 @@
+.container{
+    color: rgb(0, 17, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    justify-content: center;
+    background-image: url("/assets/eat.png");
+    height: 100%;
+    margin: 10px 30% 80px 30%;
+    padding: 3% 0 3.2% 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: brown;
+    border-style:groove ;
+    border-radius: 2% ;
+}
+
+.container h2{
+    color:red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+
+.btn{
+    background-color: brown;
+    width:100px;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+.btn:hover{
+    background-color: cadetblue;
+}
+.container form{
+    border-width: 10px;
+}
+
+label{
+    background-color:rgb(221, 166, 157);
+    padding: 3px 1px 3px 7px;
+    margin:5px;
+    border-radius: 10px ;
+}
